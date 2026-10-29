@@ -96,7 +96,7 @@ convert("出租车",      "s2hk")  # -> 的士         Hong Kong cab
 convert("鼠标和打印机", "s2tw")  # -> 滑鼠和印表機  Taiwan IT terms
 ```
 
-**228 Taiwanese** and **144 Hong Kong** variant entries ship out of the box, covering
+**235 Taiwanese** and **144 Hong Kong** variant entries ship out of the box, covering
 IT, transport, food, and business vocabulary 🗺️
 
 ### 🔍 Automatic detection
@@ -123,7 +123,7 @@ toolchain. Fully offline ✈️
 | Simplified → Traditional chars | **6,785** | CJK-wide simplified/traditional variants |
 | Traditional → Simplified chars | **6,874** | Reverse mapping |
 | Disambiguation phrases | **449** | One-to-many rules (hand curated) |
-| Taiwanese variants | **228** | Mainland → Taiwan vocabulary |
+| Taiwanese variants | **235** | Mainland → Taiwan vocabulary |
 | Hong Kong variants | **144** | Mainland → Hong Kong vocabulary |
 
 ---
