@@ -1,0 +1,2 @@
+# HanShift 运行期零第三方依赖，仅使用 Python 标准库（Python >= 3.8）。
+# 本文件保留为空清单，便于在 CI 中执行 `pip install -r requirements.txt` 而不报错。

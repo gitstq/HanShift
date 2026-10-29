@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hanshift"
+version = "1.0.0"
+description = "零依赖·离线优先的简繁中文转换引擎：单字映射 + 词组级歧义消解 + 两岸港台用语差异"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "gitstq" }]
+keywords = [
+    "chinese",
+    "converter",
+    "simplified",
+    "traditional",
+    "i18n",
+    "opencc",
+    "cli",
+    "zero-dependency",
+    "offline",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Chinese (Simplified)",
+    "Natural Language :: Chinese (Traditional)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = []
+
+[project.urls]
+Homepage = "https://github.com/gitstq/HanShift"
+Repository = "https://github.com/gitstq/HanShift"
+Issues = "https://github.com/gitstq/HanShift/issues"
+
+[project.scripts]
+hanshift = "hanshift.cli:main"
+
+[tool.setuptools]
+packages = ["hanshift", "hanshift.data"]
+
+[tool.setuptools.package-data]
+hanshift = ["py.typed"]
